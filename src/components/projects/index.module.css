@@ -1,0 +1,56 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.project:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.project:hover img {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.description {
+  position: absolute;
+  display: none;
+  transform: translateX(-200%);
+}
+.liveURL {
+  position: absolute;
+  display: none;
+  transform: translateX(-200%);
+  top: 80%;
+  left: 85%;
+}
+.project:hover .description {
+  display: block;
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+  padding: 10px;
+}
+.project:hover .liveURL {
+  display: block;
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+  padding: 10px;
+}
+
+.title {
+  letter-spacing: -0.025em;
+  line-height: 2.5rem;
+  font-weight: 700;
+}

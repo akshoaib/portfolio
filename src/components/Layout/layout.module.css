@@ -1,0 +1,15 @@
+.layout {
+  background-color: var(--secondary-color);
+  min-height: 100vh;
+  padding: 0;
+}
+
+.main {
+  color: #ccd6f6;
+}
+
+@media screen and (max-width: 768px) {
+  .layout {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,12 @@
+.duration {
+  font-size: 0.8rem;
+}
+.description {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.experience:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
