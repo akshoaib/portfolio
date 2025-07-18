@@ -1,6 +1,7 @@
 import styles from "./index.module.css";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
 
 const Intro = () => {
   return (
@@ -25,7 +26,7 @@ const Intro = () => {
           rel="noopener noreferrer"
           className={styles.icon}
         >
-          <FaLinkedin size={25} />
+          <FaLinkedin size={20} />
         </a>
         <a
           href="https://github.com/akshoaib"
@@ -33,7 +34,10 @@ const Intro = () => {
           rel="noopener noreferrer"
           className={styles.icon}
         >
-          <FaGithub size={25} />
+          <FaGithub size={20} />
+        </a>
+        <a href="mailto:akhtarshoaib317@gmail.com" className={styles.icon}>
+          <MdOutlineEmail size={20} />
         </a>
       </div>
     </div>

@@ -40,7 +40,7 @@
   display: block;
   transform: translateX(0);
   transition: transform 0.3s ease-in-out;
-  padding: 10px;
+  padding: 30px;
 }
 .project:hover .liveURL {
   display: block;

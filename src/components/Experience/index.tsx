@@ -5,7 +5,7 @@ import styles from "./index.module.css";
 const Experience = () => {
   return (
     <>
-      <h4>Experience</h4>
+      <h4 className="mt-2 ">Experience</h4>
       {experience.map((exp, index) => (
         <Row className={`${styles.experience} mb-4`} key={index}>
           <Col xs={12} lg={4}>
@@ -21,12 +21,13 @@ const Experience = () => {
                 {description}
               </p>
             ))}
-            <div className="d-flex gap-2 flex-wrap">
+            <div className="d-flex gap-2 flex-wrap my-2">
               {exp.skills.map((skill, index) => (
                 <SkillBadge key={index} skill={skill} />
               ))}
             </div>
           </Col>
+          <hr />
         </Row>
       ))}
     </>

@@ -29,7 +29,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaExternalLinkAlt color="black" />
+                  <FaExternalLinkAlt color="white" />
                 </a>
               </div>
             </Col>
