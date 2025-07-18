@@ -5,7 +5,7 @@ import Experience from "../Experience";
 import Projects from "../projects";
 const Layout = () => {
   return (
-    <Row className={`${styles.layout} pt-5 justify-content-around`}>
+    <Row className={`${styles.layout} pt-5 g-0 justify-content-around`}>
       <Col xs={12} lg={4} className={`${styles.main}`}>
         <Intro />
       </Col>
