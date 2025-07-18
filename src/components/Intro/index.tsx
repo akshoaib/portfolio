@@ -13,7 +13,7 @@ const Intro = () => {
         Solutions
       </p>
       <p>
-        I’m a 3+ years experienced developer passionate about crafting
+        I’m a 3+ years experienced developer, passionate about crafting
         accessible, pixel-perfect user interfaces that blend thoughtful design
         with robust engineering. My favorite work lies at the intersection of
         design and development, creating experiences that not only look great
