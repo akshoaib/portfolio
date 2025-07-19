@@ -87,7 +87,7 @@ export const projects = [
     url: "https://account.formpanda.com.au/sign-in",
     duration: "April 2024 - PRESENT",
     description:
-      "Form Panda is an Australian company that offers software solutions—primarily for solar installers—to streamline workflow, documentation, and regulatory compliance:",
+      "Form Panda is an Australian company that offers software solutions, primarily for solar installers to streamline workflow, documentation, and regulatory compliance:",
   },
   {
     company: "Vizz Web Solutions",
